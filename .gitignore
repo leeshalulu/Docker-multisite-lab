@@ -1,0 +1,16 @@
+.env
+*.pem
+*.key
+*.crt
+*.secret
+
+# NPM runtime and sensitive data
+npm-data/access/
+npm-data/keys.json
+npm-data/logs/
+npm-data/database.sqlite
+npm-data/letsencrypt/
+npm-data/nginx/proxy_host/
+
+# Other runtime files
+*.log
